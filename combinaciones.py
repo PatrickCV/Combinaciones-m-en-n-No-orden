@@ -64,6 +64,9 @@ def moverFicha(fichas, lista):
 
 
 def combinaciones(longitud, lista):
+	'''
+		Genera todas las combinaciones de m en n numeros, donde m = longitud.
+	'''
 	
 	grupo = [] # Grupo de combinaciones.
 	fichas = list(range(longitud)) # Fichas en las primeras n posiciones.
